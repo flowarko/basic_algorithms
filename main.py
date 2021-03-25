@@ -4,6 +4,9 @@ from random import randint
 
 if __name__ == '__main__':
     # Testing Algorithms
-    print(sortr([randint(0, 100) for i in range(10)]))
-    print(lnumber([randint(0, 100) for i in range(10)]))
-    print(hnumber([randint(0, 100) for i in range(10)]))
+    test_list = [ randint(0, 100) for i in range(10) ]
+    print('Testlist: ' + str(test_list))
+    print(sort_recursion(test_list))
+    print(sort_insertion(test_list))
+    print(lnumber(test_list))
+    print(hnumber(test_list))
