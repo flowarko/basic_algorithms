@@ -1,6 +1,6 @@
-# Sorting Algorithms
+# Basic Algorithms
 
-Version 0.0 Florian Warko For learning.
+Version 0.0 / Florian Warko / For learning.
 
 # sorting algorithms:
 
@@ -11,3 +11,7 @@ Version 0.0 Florian Warko For learning.
 
     - lnumber: Find lowest number
     - hnumber: Find highest number
+
+# prime algorithms:
+
+    - prime_check: Check, if number is prime
