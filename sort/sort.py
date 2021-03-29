@@ -48,7 +48,7 @@ def sort_insertion(sequence):
     # until it is bigger than i - 1
     for i in length:
         value = sequence[i]
-        while sequence[i-1] > value and i > 0:
-            sequence[i], sequence[i-1] = sequence[i-1], sequence[i]
+        while sequence[i - 1] > value and i > 0:
+            sequence[i], sequence[i - 1] = sequence[i - 1], sequence[i]
             i = i - 1
     return sequence
