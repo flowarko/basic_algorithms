@@ -28,10 +28,16 @@ def sort_insertion(sequence):
     sequence: input !list with numbers
     :return: Ordered list
     '''
+    if len(sequence) <= 1:
+        return sequence
+    # Check if sequence is numeric
+    for s in sequence:
+        if not str(s).isdigit():
+            raise ValueError('sequence must be all numeric')
+
     length = range(0, len(sequence))
     for i in length:
         value = sequence[i]
-
         while sequence[i-1] > value and i > 0:
             sequence[i], sequence[i-1] = sequence[i-1], sequence[i]
             i = i - 1

@@ -5,7 +5,7 @@ For learning.
 
 # sorting algorithms:
     - sortr: Sort with Recursion
-    - sorti: Sort iterative
+    - sorti: Sort with Insertion
 
 # lhnumber algorithms:
     - lnumber: Find lowest number
