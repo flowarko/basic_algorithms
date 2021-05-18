@@ -1,7 +1,7 @@
 from sort.sort import *
 from sort.lhnumber import *
-from math.prime import prime_check
-from math.fib import fibonacci
+from wmath.prime import prime_check
+from wmath.fib import fibonacci
 from random import randint
 
 if __name__ == '__main__':
