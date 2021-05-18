@@ -1,6 +1,7 @@
 from sort.sort import *
 from sort.lhnumber import *
-from prime.check import *
+from math.prime import prime_check
+from math.fib import fibonacci
 from random import randint
 
 if __name__ == '__main__':
@@ -13,3 +14,4 @@ if __name__ == '__main__':
     print('Lowest Number: ' + str(lnumber(test_list)))
     print('Highest Number: ' + str(hnumber(test_list)))
     print('Prime Check of {}: {}'.format(test_number, prime_check(test_number)))
+    print('Fibonacci of 10: {}'.format(fibonacci(10)))
