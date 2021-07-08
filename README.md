@@ -17,7 +17,7 @@ Version 0.0 / Florian Warko / For learning.
     - prime_check: Check, if number is prime
 
 # fibonacci algorithms:
-    
+
     - fib: fibonacci of n variable
 
 # temperatures algorithms:

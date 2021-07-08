@@ -10,4 +10,3 @@ def fibonacci(n):
         a, b = a + b, a
 
     return out_lst
-

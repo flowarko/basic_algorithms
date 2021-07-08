@@ -3,7 +3,8 @@ def f_in_c(value):
     :param value: Input Fahrenheit
     :return: Output Celsius
     '''
-    return (value -32) / 1.8
+    return (value - 32) / 1.8
+
 
 def c_in_f(value):
     ''' Convert Celsius to Fahrenheit
