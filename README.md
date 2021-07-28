@@ -20,6 +20,10 @@ Version 0.0 / Florian Warko / For learning.
 
     - fib: fibonacci of n variable
 
+# faculty algorithms:
+
+    - fak: faculty of n variable
+
 # temperatures algorithms:
 
     - f_in_c: Converting Fahrenheit to Celsius

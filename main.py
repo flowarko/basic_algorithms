@@ -1,9 +1,7 @@
 from sort.sort import *
 from sort.lhnumber import *
-from wmath.prime import prime_check
-from wmath.fib import fibonacci
 from random import randint
-from wmath.temperatures import *
+from wmath.math import *
 from icecream import ic
 
 if __name__ == '__main__':
@@ -18,6 +16,7 @@ if __name__ == '__main__':
     print('Highest Number: ' + str(hnumber(test_list)))
     print('Prime Check of {}: {}'.format(test_number, prime_check(test_number)))
     print('Fibonacci of 10: {}'.format(fibonacci(test_number)))
+    print('Faculty of {}: {}'.format(test_number, fak(test_number)))
     print('Converting {} Fahrenheit to Celsius: {}'.format(test_number, f_in_c(test_number)))
     print('Converting {} Celsius to Fahrenheit: {}'.format(test_number_celsius, c_in_f(test_number_celsius)))
     print('')
@@ -28,5 +27,6 @@ if __name__ == '__main__':
     ic(hnumber(test_list))
     ic(prime_check(test_number))
     ic(fibonacci(test_number))
+    ic(fak(test_number))
     ic(f_in_c(test_number))
     ic(c_in_f(test_number_celsius))
