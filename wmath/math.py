@@ -11,6 +11,7 @@ def fibonacci(n):
 
     return out_lst
 
+
 def fak(n):
     '''Faculty algorithm
     :param n: faculty of n numbers
@@ -21,7 +22,7 @@ def fak(n):
 
     e = 1
     for i in range(n):
-        e = e * (i+1)
+        e = e * (i + 1)
 
     return e
 
@@ -42,6 +43,7 @@ def prime_check(number):
         if number % i == 0 and i != 1:
             return False
     return True
+
 
 def f_in_c(value):
     ''' Convert Fahrenheit to Celsius
